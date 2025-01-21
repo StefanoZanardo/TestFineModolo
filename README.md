@@ -1,4 +1,4 @@
-# TestFineModolo
+# TestFineModolo di Stefano Zanardo
 Proposta 5: Memory Game
 Obiettivo: Creare un gioco di memoria con carte.
 Specifiche:
