@@ -1,0 +1,53 @@
+body {
+  
+
+  height: 100vh;
+  margin: 0;
+  background-color:url("https://img.freepik.com/foto-gratuito/frusta-di-papaia-sfondo-acquerello_53876-101916.jpg?semt=ais_hybrid")
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, 100px); 
+  gap: 10px;
+  justify-content: center;
+}
+
+.memory {
+  width: 100px;
+  height: 150px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.memory-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.photo-front,
+.photo-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+
+.photo-back {
+  transform: rotateY(180deg);
+}
+.h1
+{
+  
+  text-align: center;
+}
+.counter
+{
+  margin-bottom: 20px;
+  font-size: 18px;
+
+}

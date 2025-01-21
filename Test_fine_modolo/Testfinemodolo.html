@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="prova.css">
+</head>
+<body>
+    <h1>MEMORY GAME</h1>
+    <div class="counter">
+        <p>Flip effettuati: <span id="flip-count">0</span></p>
+    </div>
+    <div class="game">
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/40_Asso_di_picche.jpg/1200px-40_Asso_di_picche.jpg" alt="picche" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/40_Asso_di_picche.jpg/1200px-40_Asso_di_picche.jpg" alt="picche" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/01_Asso_di_cuori.jpg/1200px-01_Asso_di_cuori.jpg" alt="cuori" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/01_Asso_di_cuori.jpg/1200px-01_Asso_di_cuori.jpg" alt="cuori" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/14_Asso_di_quadri.jpg/1200px-14_Asso_di_quadri.jpg" alt="quadri" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/14_Asso_di_quadri.jpg/1200px-14_Asso_di_quadri.jpg" alt="quadri" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/27_Asso_di_fiori.jpg" alt="fiori" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/27_Asso_di_fiori.jpg" alt="fiori" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/31_Asso_di_bastoni.jpg/1200px-31_Asso_di_bastoni.jpg" alt="bastoni" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/31_Asso_di_bastoni.jpg/1200px-31_Asso_di_bastoni.jpg" alt="bastoni" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://www.dimensionecasino.com/images/foto/carte-italiane/asso-denari.jpg" alt="denari" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://www.dimensionecasino.com/images/foto/carte-italiane/asso-denari.jpg" alt="denari" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/21_Asso_di_spade.jpg" alt="spade" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/21_Asso_di_spade.jpg" alt="spade" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/11_Asso_di_coppe.jpg/1200px-11_Asso_di_coppe.jpg" alt="coppe" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+        <div class="memory" onclick="toggleFlip(this)">
+            <div class="memory-inner">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/11_Asso_di_coppe.jpg/1200px-11_Asso_di_coppe.jpg" alt="coppe" class="photo-back">
+                <img src="https://www.heliosguzzi.com/cms/contenuto/c_2421/varianti/t_variante_228864.png" alt="Back 1" class="photo-front">
+            </div>
+        </div>
+       
+    </div>
+
+    <script src="prova.js"></script>
+</body>
+</html>
+
+            
+   
